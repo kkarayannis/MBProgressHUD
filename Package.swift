@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MBProgressHUD",
     products: [
-        .library(name: "MBProgressHUD", targets: ["MBProgressHUD"])
+        .library(name: "MBProgressHUD", type: .dynamic, targets: ["MBProgressHUD"])
     ],
     targets: [
         .target(
